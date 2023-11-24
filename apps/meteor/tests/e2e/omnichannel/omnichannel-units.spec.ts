@@ -1,19 +1,19 @@
 import { faker } from '@faker-js/faker';
 import type { Page } from '@playwright/test';
-import { ILivechatDepartment, ILivechatMonitor, IUser } from '@rocket.chat/core-typings';
+import { ILivechatDepartment } from '@rocket.chat/core-typings';
 
 import { IS_EE } from '../config/constants';
 import { Users } from '../fixtures/userStates';
 import { OmnichannelUnits } from '../page-objects';
 import { createDepartment, deleteDepartment } from '../utils/omnichannel/departments';
 import { createMonitor, deleteMonitor } from '../utils/omnichannel/monitors';
-import { createUnit, deleteUnit } from '../utils/omnichannel/units';
+import { createUnit } from '../utils/omnichannel/units';
 import { test, expect } from '../utils/test';
 
 test.use({ storageState: Users.admin.state });
 
 test.describe('OC - Manage Units', () => {
-	// test.skip(!IS_EE, 'Enterprise Edition Only');
+	test.skip(!IS_EE, 'Enterprise Edition Only');
 
 	let poOmnichannelUnits: OmnichannelUnits;
 
