@@ -1,5 +1,50 @@
 # @rocket.chat/meteor
 
+## 8.3.1
+
+### Patch Changes
+
+- Bump @rocket.chat/meteor version.
+
+- Bump @rocket.chat/meteor version.
+
+- ([#40080](https://github.com/RocketChat/Rocket.Chat/pull/40080) by [@dionisio-bot](https://github.com/dionisio-bot)) Fixes a bug that could remove all of a user's subscriptions when the user was re-added to a room while still banned.
+
+- <details><summary>Updated dependencies []:</summary>
+
+  - @rocket.chat/core-typings@8.3.1
+  - @rocket.chat/rest-typings@8.3.1
+  - @rocket.chat/abac@0.1.7
+  - @rocket.chat/federation-matrix@0.1.1
+  - @rocket.chat/license@1.1.14
+  - @rocket.chat/media-calls@0.3.1
+  - @rocket.chat/omnichannel-services@0.3.51
+  - @rocket.chat/pdf-worker@0.3.33
+  - @rocket.chat/presence@0.2.54
+  - @rocket.chat/api-client@0.2.54
+  - @rocket.chat/apps@0.6.7
+  - @rocket.chat/core-services@0.13.3
+  - @rocket.chat/cron@0.1.54
+  - @rocket.chat/fuselage-ui-kit@29.0.1
+  - @rocket.chat/gazzodown@29.0.1
+  - @rocket.chat/http-router@7.9.21
+  - @rocket.chat/message-types@0.1.1
+  - @rocket.chat/model-typings@2.1.3
+  - @rocket.chat/ui-avatar@25.0.1
+  - @rocket.chat/ui-client@29.0.1
+  - @rocket.chat/ui-contexts@29.0.1
+  - @rocket.chat/ui-voip@19.0.1
+  - @rocket.chat/web-ui-registration@29.0.1
+  - @rocket.chat/models@2.1.3
+  - @rocket.chat/server-cloud-communication@0.0.3
+  - @rocket.chat/network-broker@0.2.33
+  - @rocket.chat/omni-core-ee@0.0.19
+  - @rocket.chat/ui-video-conf@29.0.1
+  - @rocket.chat/instance-status@0.1.54
+  - @rocket.chat/omni-core@0.0.19
+  - @rocket.chat/server-fetch@0.1.3
+  </details>
+
 ## 8.3.0
 
 ### Minor Changes
