@@ -1,5 +1,17 @@
 # @rocket.chat/media-signaling
 
+## 1.0.0
+
+### Major Changes
+
+- ([#37161](https://github.com/RocketChat/Rocket.Chat/pull/37161)) Publishes the media signaling package to npm
+
+### Minor Changes
+
+- ([#40141](https://github.com/RocketChat/Rocket.Chat/pull/40141)) Adds a new REST endpoint to accept or reject media calls without an active media session
+
+- ([#40093](https://github.com/RocketChat/Rocket.Chat/pull/40093)) Adds new API endpoints to load the user's current voice call state from the server
+
 ## 1.0.0-rc.1
 
 ### Major Changes
