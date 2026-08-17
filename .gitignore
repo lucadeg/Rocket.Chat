@@ -62,3 +62,17 @@ storybook-static
 development/tempo-data/
 
 .env
+
+
+# --- HERMES SECURITY & DATA GUARD ---
+*.env
+.env
+.env.*
+*client_secret*.json
+*credentials*.json
+*service_account*.json
+*token*.json
+!*.prisma
+!schema.prisma
+!migrations/
+!*.sql
